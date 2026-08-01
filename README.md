@@ -157,7 +157,7 @@ and don't share one across threads. Open one per worker / thread / request.
 ## Development
 
 ```bash
-git clone https://github.com/mohammadzayed/turso-http
+git clone https://github.com/mohammadzayed5/turso-http
 cd turso-http
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"

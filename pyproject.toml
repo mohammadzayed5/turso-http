@@ -34,8 +34,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mohammadzayed/turso-http"
-Issues = "https://github.com/mohammadzayed/turso-http/issues"
+Homepage = "https://github.com/mohammadzayed5/turso-http"
+Issues = "https://github.com/mohammadzayed5/turso-http/issues"
 
 [tool.setuptools.packages.find]
 include = ["turso_http*"]

@@ -203,7 +203,7 @@ the wrapper smarter — it's to notice that the wire protocol is 40
 lines of JSON, and skip the wrapper.
 
 The library is [turso-http on
-GitHub](https://github.com/mohammadzayed/turso-http). It shipped Mini
+GitHub](https://github.com/mohammadzayed5/turso-http). It shipped Mini
 Golf Score Tracker's v1.1 to the App Store on the first review pass.
 
 *—Mohammad*
