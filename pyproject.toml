@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turso-http"
+version = "0.1.0"
+description = "Pure-Python DB-API 2.0 client for Turso over the hrana /v2/pipeline HTTP protocol. Thread-safe. No tokio."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mohammad Zayed" }]
+requires-python = ">=3.9"
+keywords = ["turso", "libsql", "sqlite", "database", "hrana", "dbapi"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Database",
+    "Topic :: Database :: Front-Ends",
+]
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+]
+
+[project.urls]
+Homepage = "https://github.com/mohammadzayed/turso-http"
+Issues = "https://github.com/mohammadzayed/turso-http/issues"
+
+[tool.setuptools.packages.find]
+include = ["turso_http*"]
